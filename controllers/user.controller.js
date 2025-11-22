@@ -50,7 +50,7 @@ const userController = {
         });
       }
       const userDetails = await user.findOne({
-        email: email,
+        where : {email: email},
       });
       console.log( userDetails ) ;
       if (await bcrypt.compare(password, userDetails.password)) {
