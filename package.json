@@ -4,14 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "node server"
+    "test": "jest --coverage"
   },
-
-  "jest": {
-  "setupFiles": ["./jest.setup.js"]
-}
-
-  ,
   "author": "",
   "license": "ISC",
   "dependencies": {
