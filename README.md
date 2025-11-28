@@ -77,13 +77,16 @@
 success :
 
 <pre>
- /auth/register   
- /auth/login 
- /tasks/all
- /tasks/create
- /tasks/:id (GET)
- /tasks/:id (PATCH)
- /tasks/:id (DELETE) 
+  {
+  "success": true,
+  "data": {
+    "id": 1,
+    "name": "Afzal",
+    "email": "afzal@example.com"
+  },
+  "error": null
+}
+ 
 </pre>
 
 Invalid User
