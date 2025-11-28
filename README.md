@@ -9,7 +9,7 @@
 
 ## ALL ROUTES 
 <pre>
- /auth/register 
+ /auth/register  
  /auth/login 
  /tasks/all
  /tasks/create
