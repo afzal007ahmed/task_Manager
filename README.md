@@ -321,7 +321,7 @@ Invalid Id :
 
 ## CLONE PROJECT
 
-git clone https://github.com/your/repo.git
+git clone https://github.com/afzal007ahmed/task_Manager.git
 
 ## INSTALL DEPENDENCIES
 
