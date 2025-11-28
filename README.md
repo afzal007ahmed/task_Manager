@@ -77,27 +77,13 @@
 success :
 
 <pre>
-{
-"success": true,
-"data": {
-"id": 1,
-"name": "Afzal",
-"email": "afzal@example.com"
-},
-"error": null
-}
-
-    </pre>
-
-Error :
-Invalid Values
-
-<pre>
-{
-"success": false,
-"data": null,
-"error": "Invalid Credentials."
-}
+ /auth/register   
+ /auth/login 
+ /tasks/all
+ /tasks/create
+ /tasks/:id (GET)
+ /tasks/:id (PATCH)
+ /tasks/:id (DELETE) 
 </pre>
 
 Invalid User

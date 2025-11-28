@@ -45,7 +45,7 @@ const taskController = {
         !["pending", "completed"].includes(status) ||
         !userId
       ) {
-        return res.status(400).send("Please provide valid details.");
+        return res.status(400).send({ success : false ,error : "Please provide valid details."});
       }
       const response = await task.create({
         title: title,

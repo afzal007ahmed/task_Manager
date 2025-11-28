@@ -25,10 +25,10 @@ const userController = {
         email: req.body.email,
         password: hashedPassword,
       });
-
+      const { password , ...body } = response
       res.send({
         success: true,
-        data: response,
+        data: body,
         error: null,
       });
     } catch (error) {
